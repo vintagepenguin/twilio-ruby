@@ -3,7 +3,7 @@ module Twilio
     class ClientConfig
       DEFAULTS = {
           host: 'api.twilio.com',
-          port: 443,
+          port: 8443,
           use_ssl: true,
           ssl_verify_peer: true,
           ssl_ca_file: File.dirname(__FILE__) + '/../../../conf/cacert.pem',
